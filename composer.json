@@ -1,0 +1,16 @@
+{
+    "name": "nizek/crawler",
+    "autoload": {
+        "psr-4": {
+            "Nizek\\Crawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohammad",
+            "email": "m.amiri@nizek.com"
+        }
+    ],
+    "require": {}
+
+}
