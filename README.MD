@@ -122,7 +122,7 @@ foreach ($elements as $element) {
 ```
 
 
-#### getElementBySelector(string $className)
+#### getElementBySelector(string $selector)
 
 Finds the first element with the given selector.
 
@@ -141,7 +141,7 @@ echo $element->getAttribute('src');
 This will find all ```img``` tags with class name ```img.thumb``` with ```alt``` value equals ```Apple iphone 12```(just like filtering page element)
 
 
-#### getElementsBySelector(string $className)
+#### getElementsBySelector(string $selector)
 
 Finds all elements with the given selector.
 
