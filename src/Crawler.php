@@ -20,7 +20,7 @@ class Crawler
 
         $this->driver = new WebDriver($this->getHost(), $this->getPort());
 
-        $this->driver->connect(browserName: '', caps: $this->getCapabilities());
+        $this->driver->connect(browserName: 'chrome', caps: $this->getCapabilities());
     }
 
     private function getHost(): string
