@@ -30,7 +30,7 @@ class Crawler
 
     public function getPort(): string
     {
-        return getenv('SELENIUM_PORT') ?: '4444';
+        return getenv('SELENIUM_PORT') ?: 444;
     }
 
     private function getCapabilities(): array
